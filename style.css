@@ -1,0 +1,20 @@
+:root,
+:root.light {
+	--color-bg: #ffffff;
+	--color-fg: #000000;
+	--card-bg-color: #fafafa;
+}
+:root.dark {
+	--color-bg: #263238;
+	--color-fg: #ffffff;
+	--card-bg-color: #607d8b;
+}
+
+body {
+	background-color: var(--color-bg);
+	color: var(--color-fg);
+}
+
+.card {
+	background-color: var(--card-bg-color) !important;
+}
